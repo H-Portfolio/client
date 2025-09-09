@@ -117,7 +117,7 @@ const Projects = ({ data }) => {
                   )}
 
                   <div className="flex gap-4 pt-4">
-                    <Button asChild className="bg-gradient-to-r from-purple-500/70 to-cyan-500/70 hover:from-purple-600/70 hover:to-cyan-600/70 text-white border-0">
+                    <Button asChild className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white border-0">
                       <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="w-4 h-4 mr-2" />
                         Code

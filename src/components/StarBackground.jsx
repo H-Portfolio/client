@@ -19,13 +19,13 @@ const StarBackground = () => {
 
     // Create stars
     const stars = [];
-    const numStars = 300;
+    const numStars = 1000;
 
     for (let i = 0; i < numStars; i++) {
       stars.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        radius: Math.random() * 2 + 0.5,
+        radius: Math.random() * 1,
         opacity: Math.random(),
         twinkleSpeed: Math.random() * 0.01 + 0.005,
         twinkleDirection: Math.random() > 0.5 ? 1 : -1
