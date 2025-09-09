@@ -43,7 +43,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div 
-            className="text-2xl font-light text-white cursor-pointer hover:text-purple-400 transition-colors"
+            className="text-2xl font-normal bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent cursor-pointer hover:text-purple-400 transition-colors"
             onClick={() => scrollToSection('#hero')}
           >
             Hansaka Rathnayake
