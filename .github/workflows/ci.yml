@@ -19,5 +19,5 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build Angular app
-        run: yarn build --configuration production
+      - name: Build React app
+        run: yarn build
