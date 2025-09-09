@@ -24,7 +24,7 @@ export const mockData = {
     backend: ["Node.js", "Python", "Django", "FastAPI","lask", "Express.js", "Java", "Springboot"],
     databases: ['PostgreSQL','H2', 'MongoDB', 'MySQL', "sqlite" ,'Redis', 'Firebase', "ChromaDB", "neo4j"],
     aiml: ["TensorFlow", "PyTorch", "OpenAI API", "Hugging Face", "Scikit-learn", "Pandas","RAG"],
-    devops: ["Docker", "AWS", , "CI/CD", "Git","github actions", "Linux"],
+    devops: ["Docker", "AWS", "CI/CD", "Git","github actions", "Linux"],
     tools: ["Intellij","VS Code","PyCharm","Anaconda", "Figma", "Postman", "Jupyter", "Firebase", "Vercel"]
   },
 
