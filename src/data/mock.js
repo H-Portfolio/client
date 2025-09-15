@@ -236,8 +236,9 @@ export const mockData = {
       "technologies": ["React", "Angular", "Node.js", "MongoDB", "JWT", "AWS S3", "SendGrid", "PM2", "Hostinger VPS", "GitHub Actions"],
       "category": "Full-Stack",
       "image": "https://port-imges.s3.ap-south-1.amazonaws.com/project-images/hs.png",
-      "demoUrl": "",
+      "demoUrl": "https://v2.emedi.lk/",
       "githubUrl": "https://github.com/e-medical",
+      "private": true,
       "featured": true,
       "codeSnippet": `// Secure authentication middleware
 const authenticateJWT = (req, res, next) => {
@@ -274,8 +275,9 @@ app.get('/products', async (req, res) => {
       "technologies": ["Angular", "Spring Boot", "MySQL", "AWS S3", "SendGrid", "JWT"],
       "category": "Full-Stack",
       "image": "https://port-imges.s3.ap-south-1.amazonaws.com/project-images/nz.png",
-      "demoUrl": "",
+      "demoUrl": "https://nozomi.lk/",
       "githubUrl": "https://github.com/NZ-LMS",
+      "private": true,
       "featured": true,
       "codeSnippet": `// Secure file upload to AWS S3
 const uploadToS3 = async (file) => {

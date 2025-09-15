@@ -117,22 +117,38 @@ const Projects = ({ data }) => {
                   )}
 
                   <div className="flex gap-4 pt-4">
-                    <Button asChild className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white border-0">
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                    {project.private ? 
+                      <Button onClick={()=> {showMessage('info', 'Private Repository', 'This project repository is private.')}} className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white border-0">
+
                         <Github className="w-4 h-4 mr-2" />
                         Code
-                      </a>
-                    </Button>
-                    <Button onClick={()=> {showMessage('info', 'Coming Soon', 'My portfolio is currently under development and will be ready soon. Please check back for updates!')}}  variant="outline" asChild className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-gray-900 backdrop-blur-sm">
-                      {/* <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Live Demo
-                      </a> */}
-                      <a >
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Live Demo
-                      </a>
-                    </Button>
+                      
+                      </Button>
+                      : 
+                      <Button asChild className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white border-0">
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-2" />
+                          Code
+                        </a>
+                      </Button>
+                    }
+
+                    {project.demoUrl == "" ? 
+                      <Button onClick={()=> {showMessage('info', 'Coming Soon', 'My portfolio is currently under development and will be ready soon. Please check back for updates!')}}  variant="outline" asChild className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-gray-900 backdrop-blur-sm">
+                        <a >
+                          <ExternalLink className="w-4 h-4 mr-2" />
+                          Live Demo
+                        </a>
+                      </Button>
+                      :
+                      <Button variant="outline" asChild className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-gray-900 backdrop-blur-sm">
+                        <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-2" />
+                          Live Demo
+                        </a>
+                      </Button>
+                    }
+                    
                   </div>
                 </CardContent>
               </div>
