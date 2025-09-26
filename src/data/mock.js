@@ -324,7 +324,7 @@ const uploadDocument = async (file) => {
             "category": "Full-Stack",
             "image": "https://port-imges.s3.ap-south-1.amazonaws.com/project-images/taskflow.png",
             "demoUrl": "",
-            "githubUrl": "https://github.com/HansakaRatnayake/TaskFlow",
+            "githubUrl": "https://github.com/HansakaRatnayake/to-do-task-web-app",
             "featured": true,
             "codeSnippet": `// Task creation endpoint with user authentication
 app.post('/tasks', authenticateJWT, async (req, res) => {
