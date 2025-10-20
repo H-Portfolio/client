@@ -189,7 +189,7 @@ export const mockData = {
             readTime: "4 min read",
             tags: ["java", "J2EE", "Architecture", "Servlet"],
             category: "Backend",
-            image: "https://media.licdn.com/dms/image/v2/D4D12AQHV0hkNNwOt3A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1712333677055?e=1759968000&v=beta&t=gQ_sZmtiCb3FiSXyc4Jg-p_30fjFa_2l1TrO1jmlDOs",
+            image: "https://media.licdn.com/dms/image/v2/D5612AQEjQRksnLoq5g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1712988258335?e=1762387200&v=beta&t=gP8ivW5NmXlSBZv2aS81efQCIMsrASu3GuC4IMktaKI",
             url: "https://www.linkedin.com/pulse/java-ee-introduction-part-1-hansaka-ratnayake-kngvf"
         },
         {
@@ -200,7 +200,7 @@ export const mockData = {
             readTime: "4 min read",
             tags: ["java", "J2EE", "Architecture", "Servlet"],
             category: "Backend",
-            image: "https://media.licdn.com/dms/image/v2/D4D12AQHV0hkNNwOt3A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1712333677055?e=1759968000&v=beta&t=gQ_sZmtiCb3FiSXyc4Jg-p_30fjFa_2l1TrO1jmlDOs",
+            image: "https://media.licdn.com/dms/image/v2/D5612AQEjQRksnLoq5g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1712988258335?e=1762387200&v=beta&t=gP8ivW5NmXlSBZv2aS81efQCIMsrASu3GuC4IMktaKI",
             url: "https://www.linkedin.com/pulse/java-ee-introduction-part-2-hansaka-rathnayake-nokic"
         },
         {
@@ -211,7 +211,7 @@ export const mockData = {
             readTime: "4 min read",
             tags: ["java", "J2EE", "Architecture", "Servlet", "EJB", "Application servers"],
             category: "Backend",
-            image: "https://media.licdn.com/dms/image/v2/D4D12AQHV0hkNNwOt3A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1712333677055?e=1759968000&v=beta&t=gQ_sZmtiCb3FiSXyc4Jg-p_30fjFa_2l1TrO1jmlDOs",
+            image: "https://media.licdn.com/dms/image/v2/D5612AQEjQRksnLoq5g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1712988258335?e=1762387200&v=beta&t=gP8ivW5NmXlSBZv2aS81efQCIMsrASu3GuC4IMktaKI",
             url: "https://www.linkedin.com/pulse/java-ee-introduction-part-3-hansaka-rathnayake-wflbc"
         },
         {
@@ -222,7 +222,7 @@ export const mockData = {
             readTime: "4 min read",
             tags: ["java", "J2EE", "Architecture", "Servlet", "EJB", "Application servers"],
             category: "Backend",
-            image: "https://media.licdn.com/dms/image/v2/D5612AQGHP_YOvTYSJA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1714211983082?e=1759968000&v=beta&t=XgAYa1mHvf_WE2kZFeywQwqp-wzkaSrK3swm571-gCQ",
+            image: "https://media.licdn.com/dms/image/v2/D5612AQGHP_YOvTYSJA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1714211983082?e=1762387200&v=beta&t=s7jeY1i0XlEoQCT3heFVn_I4T3fbC4-CL-Z6GG4P9Sc",
             url: "https://www.linkedin.com/pulse/java-ee-servlet-part-1-hansaka-rathnayake-atcic"
         }
     ],
