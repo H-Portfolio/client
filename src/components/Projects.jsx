@@ -4,6 +4,7 @@ import {Card, CardContent, CardHeader, CardTitle} from './ui/card';
 import {Badge} from './ui/badge';
 import {Button} from './ui/button';
 import MessageDialog from './MessageDialog';
+import OngoingProjects from "@/components/OngoingProjects";
 
 
 const Projects = ({data}) => {
@@ -41,6 +42,7 @@ const Projects = ({data}) => {
 
     return (
         <section id="projects" className="py-24 relative z-10">
+            <OngoingProjects/>
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl lg:text-5xl font-light text-white mb-6">
