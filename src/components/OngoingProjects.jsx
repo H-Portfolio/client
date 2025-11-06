@@ -157,7 +157,7 @@ const OngoingProjects = () => {
                                     alt={project.title}
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                                 />
-                                <Badge className="absolute top-4 left-4 bg-gradient-to-r from-purple-500 to-cyan-500 text-white border-0 animate-pulse">
+                                <Badge className="absolute top-4 left-4 bg-green-600 text-white border-0 animate-pulse">
                                     Ongoing
                                 </Badge>
                                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent"></div>
