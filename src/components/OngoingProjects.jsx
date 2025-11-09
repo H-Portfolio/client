@@ -59,7 +59,7 @@ const OngoingProjects = () => {
 
     const project = {
         title: 'SmartCity 360° – Intelligent City Management Platform',
-        type: 'Ongoing Full-Stack Enterprise System',
+        type: 'Full-Stack Enterprise System',
         domain: 'Smart City Operations | IoT | Data Analytics | AI | Cloud Native | Microservices',
         description: 'A scalable, intelligent city management platform powered by microservices and microfrontends, integrating modern web frameworks, distributed systems, and advanced DevOps technologies.',
         vision: 'To create an intelligent, connected city ecosystem that leverages data, automation, and microservices to enhance citizen experience, optimize city operations, and improve urban sustainability.',
