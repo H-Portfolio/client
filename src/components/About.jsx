@@ -20,10 +20,11 @@ const About = ({ data }) => {
   };
 
   const handleDownloadCV = () => {
-    const link = document.createElement('a');
-    link.href = data.resumeUrl;
-    link.download = `Hansaka Rathnayake Resume.pdf`;
-    link.click();
+    window.open('https://drive.google.com/file/d/172FNxb_TBPq-wMRO5_iUfZIiiwuAVBy_/view?usp=sharing', "_blank");
+    //const link = document.createElement('a');
+    //link.href = data.resumeUrl;
+    //link.download = `Hansaka Rathnayake Resume.pdf`;
+    //link.click();
   };
 
   return (
